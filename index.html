@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Random Number</title>
+</head>
+<body>
+	<script>
+
+
+        
+
+        var userInput = parseInt(prompt("Enter the oparator u want ? robi = 8 , gp = 7 , bl = 9 ! "));
+
+        var randomNumber =  Math.floor(Math.random()*10)+10;
+        var randomNumber1 =  Math.floor(Math.random()*20)+10;
+        var randomNumber2 =  Math.floor(Math.random()*30)+10;
+        var randomNumber3 =  Math.floor(Math.random()*40)+10;
+ 
+        switch(userInput){
+
+                case 8:
+                document.write("018"+randomNumber+randomNumber1+randomNumber2+randomNumber3);
+                break;
+
+                case 7: 
+                document.write("017"+randomNumber+randomNumber1+randomNumber2+randomNumber3);
+                break;
+
+
+                case 9:
+                document.write("019"+randomNumber+randomNumber1+randomNumber2+randomNumber3);
+                break;
+
+                default: 
+                document.write("Sorry");
+
+
+
+        }
+    
+    
+    
+    
+    </script>
+	
+</body>
+</html>
